@@ -1,0 +1,38 @@
+.main-airports {
+  color: black;
+}
+
+.airports-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.airports-table th,
+.airports-table td {
+  padding: 10px;
+  border: 1px solid #eaeaea;
+  text-align: left;
+  color: black; 
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  color: black; 
+}
+
+.add-button {
+  margin-bottom: 10px;
+  border-radius: 20px;
+  color: white !important;
+   
+}
+
+.add-button:hover {
+  background-color: #ddd; 
+}
+
+

@@ -3,10 +3,42 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@adobe/react-spectrum": "^3.35.1",
+    "@react-aria/example-theme": "^1.0.3",
+    "@react-spectrum/actionbar": "^3.4.5",
+    "@react-spectrum/actiongroup": "^3.10.5",
+    "@react-spectrum/breadcrumbs": "^3.9.7",
+    "@react-spectrum/button": "^3.16.4",
+    "@react-spectrum/calendar": "^3.4.9",
+    "@react-spectrum/checkbox": "^3.9.6",
+    "@react-spectrum/combobox": "^3.12.5",
+    "@react-spectrum/contextualhelp": "^3.6.11",
+    "@react-spectrum/datepicker": "^3.9.6",
+    "@react-spectrum/dialog": "^3.8.11",
+    "@react-spectrum/dnd": "^3.3.10",
+    "@react-spectrum/dropzone": "^3.0.1",
+    "@react-spectrum/filetrigger": "^3.0.1",
+    "@react-spectrum/inlinealert": "^3.2.5",
+    "@react-spectrum/list": "^3.7.10",
+    "@react-spectrum/listbox": "^3.12.9",
+    "@react-spectrum/menu": "^3.19.1",
+    "@react-spectrum/numberfield": "^3.9.3",
+    "@react-spectrum/picker": "^3.14.5",
+    "@react-spectrum/searchfield": "^3.8.6",
+    "@react-spectrum/slider": "^3.6.9",
+    "@react-spectrum/table": "^3.12.10",
+    "@react-spectrum/tabs": "^3.8.10",
+    "@react-spectrum/tag": "^3.2.6",
+    "@react-spectrum/text": "^3.5.5",
+    "@spectrum-icons/workflow": "^4.2.12",
+    "@spectrum-web-components/base": "^0.43.0",
+    "@spectrum-web-components/reactive-controllers": "^0.43.0",
+    "@spectrum-web-components/sidenav": "^0.43.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.3.1",
+    "react-aria-components": "^1.2.1",
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
@@ -34,5 +66,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "css-loader": "^7.1.2"
   }
 }

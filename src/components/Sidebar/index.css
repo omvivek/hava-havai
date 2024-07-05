@@ -1,0 +1,45 @@
+.sidebar {
+  width: 200px;
+  background-color: white;
+  padding: 10px;
+  border-right: 1px solid #eaeaea;
+  color: black;
+}
+.icon-text {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 8px; 
+}
+
+.sidebar {
+  width: 240px; 
+  height: 100%; 
+  background-color: white; 
+  padding: 8px 12px; 
+  gap: 10px; 
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.sp-sidenav-item {
+  display: flex;
+  align-items: center;
+  padding: 7px 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sp-sidenav-item:hover {
+  background-color: white; 
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px; 
+}
+

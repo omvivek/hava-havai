@@ -1,0 +1,17 @@
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 1px solid #eaeaea;
+  background-color: #f5f5f5;
+}
+
+
+.header .avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
